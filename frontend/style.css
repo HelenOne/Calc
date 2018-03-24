@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.button {
+  display: inline-block;
+  background-color: rgb(248,193,255);
+  border: 5px outset rgb(238,125,255);
+  padding: 20px;
+  margin: 1px;
+  font-size: 20px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.screen {
+   display: inline-block;
+  background-color: rgb(248,193,255);
+  border: 5px outset rgb(238,125,255);
+  padding: 20px;
+  margin: -1px;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 20px;
+  height: 20px;
+  width: 240px;
+  text-align: center;
+}
+.buttons {
+  font-size: 0px;
+}
+.main-block {
+  font-family: 'Comfortaa', cursive;
+  position: absolute;
+  top: calc(50% - 144px);
+  left: calc(50% - 180px);
+}
